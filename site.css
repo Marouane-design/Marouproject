@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+}
+
+.header-bar{
+  width: 100%;
+  height: 80px;
+  background-color: rgb(63, 63, 206);
+  display: block;
+  display: flex;
+  position: fixed;
+  
+
+  
+  
+  
+}
+
+.header-button{
+    width: 50px;
+    height: 50px;
+    padding: 15px;
+    filter: drop-shadow(
+       0 -5px 0 black
+    );
+}
+
+.header-text{
+color:#fff;
+text-align: center;
+padding: 25px;
+flex-grow: 1;
+text-shadow: 0 -5px 0  black;
+
+    
+}
+ .trip-text ,.text {
+    padding: 80px;
+    color: green;
+ }
+
+ .padding{
+    text-align: center;
+ }
+ input{
+    padding: 5px;
+    width: 250px;
+ }
+ .login{
+    margin: 10px;
+    width: 50px;
+    
+ }
+    
+ nav {
+    width: 300px;
+    height: 100vh;
+    background-color: rgb(63, 63, 206);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: fixed;
+    color: #fff;
+    padding-top: 0%;
+    left: -300px;
+    transition: all 1s;
+    margin-top: 80px;    
+    
+
+}
+.header-nav.active{
+    left: 0px;
+}
+
+  li , a {
+    list-style: none;
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 -5px 0 black;
+}
+
+.trip{
+    color: green;
+    padding: 20px;
+}
+
+
+.logo{
+    width: 50px;
+    height: 50px;
+    padding: 15px;
+    float: right;
+    filter: drop-shadow(
+        0 -5px 0 black
+    );
+}
+ .trip-imgs{
+    width: 120px;
+    height: 120px;
+    padding: 15px;
+    display: flex;
+ }
+
+.main-img{
+    max-width: 1200px;
+    
+}
+ article{
+    text-align: center;
+ }
+
+ @media only screen and ( max-width: 1200px ){
+    .main-img  {
+        width: 100%;
+    }
+ }
+ @media only screen and ( max-width: 800px ){
+    .header-bar , body , .header-text   {
+        font-size: 10px;
+       
+    }
+
+    .padding-img{
+        width: 50%;
+    }
+
+    .header-button , .logo{
+        width: 25px;
+        height: 25px;
+        filter: drop-shadow(
+            0 -2.5px 0 black
+        );
+    }
+    li , a {
+        font-size: 10px;
+        padding-left: 5px;
+        text-shadow: 0 -2.5px 0 black;
+    }
+
+    .header-text{
+
+        text-shadow: 0 -2.5px 0 black;
+    }
+    nav {
+        width: 150px;
+        text-align: center;
+    }
+ }
+
+ .text {
+     text-align: center;
+ }
+
+ .input-group{
+    text-align: center;
+ }
